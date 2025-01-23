@@ -23,9 +23,9 @@ char getPlayerMove() {
 void determineWinner(char player, char computer) {
     if (player == computer) {
         cout << "It's a tie!" << endl;
-    } else if ((player == 'R' && computer == 's') || 
-               (player == 'P' && computer == 'r') || 
-               (player == 'S' && computer == 'p')) {
+    } else if ((player == 'r' && computer == 's') || 
+               (player == 'p' && computer == 'r') || 
+               (player == 's' && computer == 'p')) {
         cout << "You win!" << endl;
     } else {
         cout << "Computer wins!" << endl;
